@@ -1,11 +1,32 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+// import Welcome from '../components/Welcome.astro';
+import Layout from "../layouts/Layout.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+  <main class="mx-auto max-w-4xl px-4 py-8">
+    <article class="prose prose-slate lg:prose-lg">
+      <h1>Off-Topic Bangalore</h1>
+
+      <p>
+        I created this website to eventually be a resource for information about
+        Bangalore.
+      </p>
+
+      <p>
+        Also, to serve as a solution to avoid off-topic messages in
+        interest-based WhatsApp groups.
+      </p>
+      <p>
+        Join the <b
+          ><a href="https://chat.whatsapp.com/CHZhwb4fbKlG18PflV7cuv"
+            >BLR Off-Topic WhatsApp group</a
+          ></b
+        > to discuss anything and everything about Bangalore.
+      </p>
+    </article>
+  </main>
 </Layout>
